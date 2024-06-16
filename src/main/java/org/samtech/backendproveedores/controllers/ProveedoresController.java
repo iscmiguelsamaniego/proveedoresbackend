@@ -44,6 +44,7 @@ public class ProveedoresController {
     @PutMapping("/update")
     @ResponseStatus(HttpStatus.OK)
     public Proveedores update(@RequestBody ProveedoresDto proveedoresDto) {
+
         return proveedoresService.update(proveedoresDto)
                 .orElseThrow(() -> new HttpServerErrorException
                         (HttpStatus.BAD_REQUEST, not_found));

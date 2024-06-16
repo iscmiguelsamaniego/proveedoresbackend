@@ -41,6 +41,7 @@ public class ProveedoresService {
             proveedor.setDireccion(paramProveedor.getDireccion());
 
             proveedores = Optional.of(proveedoresRepository.save(proveedor));
+
         }
 
         return proveedores;
@@ -61,9 +62,8 @@ public class ProveedoresService {
 
         Optional<Proveedores> proveedores = Optional.empty();
 
-        if(proveedoresRepository.findById(paramProveedor.getId()).isPresent()){
+        if (proveedoresRepository.findById(paramProveedor.getId()).isPresent()) {
             Proveedores proveedor = proveedoresRepository.findById(paramProveedor.getId()).get();
-            proveedor.setId(paramProveedor.getId());
             proveedor.setNombre(paramProveedor.getNombre());
             proveedor.setRazonsocial(paramProveedor.getRazonsocial());
             proveedor.setDireccion(paramProveedor.getDireccion());
