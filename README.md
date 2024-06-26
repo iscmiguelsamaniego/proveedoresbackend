@@ -4,12 +4,14 @@ Aplicación para efectos de evaluación realizada con [Spring Boot](http://proje
 
 ## Apis disponibles
 
+- Se recomienda utilizar Postman https://www.postman.com/ ó Bruno https://www.usebruno.com/
+
 #### Obtener todos los usuarios (GET)
 http://localhost:8080/datosdelsistema/getAll
 <br/>
 #### Crear proveedor (POST)
 http://localhost:8080/proveedores/create
-#### parametros
+#### Parámetros (JSON)
 { 
     "nombre" : "asignarparametro",
     "razonsocial" : "asignarparametro",
@@ -21,7 +23,7 @@ http://localhost:8080/proveedores/getAll
 <br/>
 #### Actualizar proveedor (PUT)
 http://localhost:8080/proveedores/update
-#### parametros
+#### Parámetros (JSON)
 { 
     "id": 1 //Asignar id a modificar
     "nombre" : "asignarparametro",
@@ -31,7 +33,7 @@ http://localhost:8080/proveedores/update
 <br/>
 #### Borrar proveedor (POST)
 http://localhost:8080/proveedores/delete
-#### parametros
+#### Parámetros (JSON)
 { 
     "id": 1 //Asignar id a eliminar  
 }
