@@ -57,11 +57,11 @@ Pasos para ejecutar el proyecto :
 
 * Previamente instalado docker hacer pull a la imagen de BD PostgreSQL (ejecutar el comando desde terminal)
  <br/>
-  __docker pull postgres__
+  	__docker pull postgres__
 
 * Ejecutar la imagen de docker desde terminal, favor de considerar agregar usuario y contraseña de su preferencia
  <br/>
-  __docker run -itd -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -v__ 
+  	__docker run -itd -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -v__ 
 
 * Abrir pgAdmin, debera iniciar sesión con su usuario y contraseña de perferencia previamente asignada
   <br/>
