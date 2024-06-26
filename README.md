@@ -70,7 +70,7 @@ Pasos para ejecutar el proyecto :
     - También desde ObjectExplorer de clic derecho del mouse sobre la base de datos, seleccione la opcion Query Tool del menu contextual.
     - Ejecute la siguiente consulta para crear las tablas proveedores y datosdelsistema
  
-      *Tabla Proveedores
+      __Tabla Proveedores__
       
         CREATE TABLE "proveedores" (
           "id" serial PRIMARY KEY,
@@ -79,7 +79,7 @@ Pasos para ejecutar el proyecto :
           "direccion" varchar
         );
       
-      *Tabla Datos del Sistema
+      __Tabla Datos del Sistema__
       
         CREATE TABLE "datosdelsistema" (
         "id" serial PRIMARY KEY,
@@ -87,7 +87,7 @@ Pasos para ejecutar el proyecto :
         "version" varchar
         );
 
-      * Insertar los Datos del Sistema
+      __Insertar los Datos del Sistema__
         
         INSERT INTO public.proveedores(nombre, razonsocial, direccion)
 	      VALUES ('nombre del proveedor', 'razon social del proveedor', 'dirección del proveedor');
