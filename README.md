@@ -30,7 +30,7 @@ Para construir y ejecutar la aplicación necesitarás :
 
 Pasos para ejecutar el proyecto :
 
-##Docker y PostgreSQL
+## Docker y PostgreSQL
 
 * Instalar Docker
   https://www.docker.com/products/docker-desktop/
@@ -72,14 +72,14 @@ Pasos para ejecutar el proyecto :
         INSERT INTO public.proveedores(nombre, razonsocial, direccion)
 	      VALUES ('nombre del proveedor', 'razon social del proveedor', 'dirección del proveedor');
       
-##Descargar repositorio de Github
+## Descargar repositorio de Github
 * Descargar Git para utilizar la linea de comandos
   https://git-scm.com/
 
 * Clone el proyecto desde la linea de comandos  
   git clone https://github.com/iscmiguelsamaniego/proveedoresbackend.git
 
-##IntelliJ y SpringBoot
+## IntelliJ y SpringBoot
 
 * Instalar IntelliJ Community Edition
   https://www.jetbrains.com/idea/download/?section=windows
@@ -95,10 +95,10 @@ Pasos para ejecutar el proyecto :
     - spring.datasource.url= jdbc:postgresql://localhost/nombredelabasededatos
       
   * Asigne el usuario 
-    - spring.datasource.username= user_demo
+    - spring.datasource.username= myusername
       
   * Asigne la contraseña
-    - spring.datasource.password= Samaniego.32
+    - spring.datasource.password= mypassword
    
   * Tomar en cuenta la configuración para ejecutar Springboot desde IntelliJ  
   <br><br>
