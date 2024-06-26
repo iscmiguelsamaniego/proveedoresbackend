@@ -122,7 +122,7 @@ Pasos para ejecutar el proyecto :
    
   * Tomar en cuenta la configuración para ejecutar Springboot desde IntelliJ  
   <br><br>
-<img src="https://github.com/iscmiguelsamaniego/proveedoresbackend/blob/main/springbootrunconfigintellij.PNG" width="250" height="450">
+<img src="https://github.com/iscmiguelsamaniego/proveedoresbackend/blob/main/springbootrunconfigintellij.PNG" width="250" height="700">
 <br><br>
   
   
