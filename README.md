@@ -56,17 +56,20 @@ Pasos para ejecutar el proyecto :
   https://www.docker.com/products/docker-desktop/
 
 * Previamente instalado docker hacer pull a la imagen de BD PostgreSQL (ejecutar el comando desde terminal)
-  docker pull postgres
+ <br/>
+  __docker pull postgres__
 
 * Ejecutar la imagen de docker desde terminal, favor de considerar agregar usuario y contraseña de su preferencia
-  docker run -itd -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -v 
+ <br/>
+  __docker run -itd -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -v__ 
 
 * Abrir pgAdmin, debera iniciar sesión con su usuario y contraseña de perferencia previamente asignada
+  <br/>
   https://www.pgadmin.org/
 
 * También desde pgAdmin  ubique la herramienta QueryTool
     - Desde el ObjectExplorer (ubicado en la esquina izquierda de la ventana pgAdmin) de clic derecho del mouse sobre la opcion localhost, seleccione la opcion Create Database del menu contextual.
-        - Asigne un nombre de la BD y pulse sobre el botón Guardar (Save)
+    - Asigne un nombre de la BD y pulse sobre el botón Guardar (Save)
     - También desde ObjectExplorer de clic derecho del mouse sobre la base de datos, seleccione la opcion Query Tool del menu contextual.
     - Ejecute la siguiente consulta para crear las tablas proveedores y datosdelsistema
  
