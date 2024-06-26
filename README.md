@@ -4,7 +4,7 @@ Aplicación para efectos de evaluación realizada con [Spring Boot](http://proje
 
 ## Apis disponibles
 
-## Obtener todos los usuarios
+#### Obtener todos los usuarios
 http://localhost:8080/datosdelsistema/getAll
 <br/>
 ## Crear proveedor
