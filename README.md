@@ -7,19 +7,19 @@ Aplicación para efectos de evaluación realizada con [Spring Boot](http://proje
 #### Obtener todos los usuarios
 http://localhost:8080/datosdelsistema/getAll
 <br/>
-## Crear proveedor
-<br/>
+#### Crear proveedor
 http://localhost:8080/proveedores/create
 <br/>
-## Obtener todos los proveedores
+#### Obtener todos los proveedores
 http://localhost:8080/proveedores/getAll
-
-## Actualizar proveedor
+<br/>
+#### Actualizar proveedor
 http://localhost:8080/proveedores/update
-
-## Borrar proveedor
+<br/>
+#### Borrar proveedor
 http://localhost:8080/proveedores/delete
-
+<br/>
+<br/>
 ## Requerimientos
 
 Para construir y ejecutar la aplicación necesitarás :
