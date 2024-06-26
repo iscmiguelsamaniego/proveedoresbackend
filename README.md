@@ -4,20 +4,37 @@ Aplicación para efectos de evaluación realizada con [Spring Boot](http://proje
 
 ## Apis disponibles
 
-#### Obtener todos los usuarios
+#### Obtener todos los usuarios (GET)
 http://localhost:8080/datosdelsistema/getAll
 <br/>
-#### Crear proveedor
+#### Crear proveedor (POST)
 http://localhost:8080/proveedores/create
+#### parametros
+{ 
+    "nombre" : "asignarparametro",
+    "razonsocial" : "asignarparametro",
+    "direccion" : "asignarparametro"
+}
 <br/>
-#### Obtener todos los proveedores
+#### Obtener todos los proveedores (GET)
 http://localhost:8080/proveedores/getAll
 <br/>
-#### Actualizar proveedor
+#### Actualizar proveedor (PUT)
 http://localhost:8080/proveedores/update
+#### parametros
+{ 
+    "id": 1 //Asignar id a modificar
+    "nombre" : "asignarparametro",
+    "razonsocial" : "asignarparametro",
+    "direccion" : "asignarparametro"
+}
 <br/>
-#### Borrar proveedor
+#### Borrar proveedor (POST)
 http://localhost:8080/proveedores/delete
+#### parametros
+{ 
+    "id": 1 //Asignar id a eliminar  
+}
 <br/>
 <br/>
 ## Requerimientos
